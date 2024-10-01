@@ -1,0 +1,45 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Logs
+logs
+*.log
+logs/*
+debug.log
+error.log
+combined.log
+
+# Uploads folder
+uploads/
+
+# Database
+*.sqlite
+*.db
+*.db-wal
+*.db-shm
+
+# OS/Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Coverage directory used by testing frameworks
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Build output
+dist/
+build/
+
+# Ignore test files (optional)
+*.test.js
+*.spec.js
